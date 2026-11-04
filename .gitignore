@@ -1,0 +1,25 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+backend/venv/
+
+# Local databases and uploaded attendance data
+*.db
+*.sqlite
+*.sqlite3
+backend/app/data/uploads/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+
+# Logs
+*.log
